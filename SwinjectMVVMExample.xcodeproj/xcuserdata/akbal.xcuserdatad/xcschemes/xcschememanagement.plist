@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>SwinjectMVVMExample.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>F5DB33781C59B568007006B4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F5DB338C1C59B568007006B4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F5DB33A01C59B649007006B4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F5DB33A91C59B649007006B4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F5DB33C41C59B692007006B4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F5DB33CD1C59B692007006B4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F5DB33E61C59B6A2007006B4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F5DB33EF1C59B6A2007006B4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
