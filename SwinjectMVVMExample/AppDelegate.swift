@@ -7,15 +7,48 @@
 //
 
 import UIKit
+import Swinject
+import ExampleView
+import ExampleViewModel
+import ExampleModel
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    
+    let container = Container() { container in
+        // Models
+        container.register(Networking.self) {_ in Network()}
+        container.register(ImageSearching.self) { r in
+            ImageSearch(network: r.resolve(Networking.self)!)
+        }
+        
+        //View models
+        container.register(ImageSearchTableViewModeling.self) { r in
+        ImageSearchTableViewModel(imageSearch: r.resolve(ImageSearching)!)
+        }
+        
+        //Views
+        container.registerForStoryboard(ImageSearchTableViewController.self){
+            r, c in
+            c.viewModel = r.resolve(ImageSearchTableViewModeling.self)
+        }
+    }
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        let window  = UIWindow(frame:  UIScreen.mainScreen().bounds)
+        window.backgroundColor = UIColor.whiteColor()
+        window.makeKeyAndVisible()
+        self.window = window
+        
+        let bundle = NSBundle(forClass: ImageSearchTableViewController.self)
+        let storyBoard = SwinjectStoryboard.create(
+            name: "Main",
+            bundle: bundle,
+            container: container)
+        window.rootViewController = storyBoard.instantiateInitialViewController()
         return true
     }
 

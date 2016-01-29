@@ -21,12 +21,21 @@
 		F544EF4E1C59DE77000D2D4F /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = F544EF4D1C59DE77000D2D4F /* Networking.swift */; };
 		F544EF501C59E15C000D2D4F /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F544EF4F1C59E15C000D2D4F /* NetworkError.swift */; };
 		F544EF521C59E33C000D2D4F /* NetworkSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F544EF511C59E33C000D2D4F /* NetworkSpec.swift */; };
+		F544EF541C5AF4EE000D2D4F /* Pixabay.swift in Sources */ = {isa = PBXBuildFile; fileRef = F544EF531C5AF4EE000D2D4F /* Pixabay.swift */; };
+		F544EF561C5AF691000D2D4F /* ImageSearching.swift in Sources */ = {isa = PBXBuildFile; fileRef = F544EF551C5AF691000D2D4F /* ImageSearching.swift */; };
+		F544EF581C5AF6FE000D2D4F /* ImageSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F544EF571C5AF6FE000D2D4F /* ImageSearch.swift */; };
+		F544EF5A1C5AFC95000D2D4F /* ImageSearchSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F544EF591C5AFC95000D2D4F /* ImageSearchSpec.swift */; };
+		F544EF5C1C5B0CF7000D2D4F /* ImageSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F544EF5B1C5B0CF7000D2D4F /* ImageSearchTableViewController.swift */; };
+		F544EF5E1C5B0D71000D2D4F /* ImageSearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F544EF5D1C5B0D71000D2D4F /* ImageSearchTableViewCell.swift */; };
+		F544EF601C5B0DBD000D2D4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F544EF5F1C5B0DBD000D2D4F /* Main.storyboard */; };
+		F544EF621C5B1804000D2D4F /* ImageSearchTableViewModeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = F544EF611C5B1804000D2D4F /* ImageSearchTableViewModeling.swift */; };
+		F544EF641C5B1819000D2D4F /* ImageSearchTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F544EF631C5B1819000D2D4F /* ImageSearchTableViewModel.swift */; };
+		F544EF661C5B18F7000D2D4F /* ImageSearchTableViewCellModeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = F544EF651C5B18F7000D2D4F /* ImageSearchTableViewCellModeling.swift */; };
+		F544EF681C5B1916000D2D4F /* ImageSearchTablevViewCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F544EF671C5B1916000D2D4F /* ImageSearchTablevViewCellModel.swift */; };
+		F544EF6A1C5B2086000D2D4F /* AppDelegateSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F544EF691C5B2086000D2D4F /* AppDelegateSpec.swift */; };
 		F5DB337D1C59B568007006B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DB337C1C59B568007006B4 /* AppDelegate.swift */; };
-		F5DB337F1C59B568007006B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DB337E1C59B568007006B4 /* ViewController.swift */; };
-		F5DB33821C59B568007006B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5DB33801C59B568007006B4 /* Main.storyboard */; };
 		F5DB33841C59B568007006B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5DB33831C59B568007006B4 /* Assets.xcassets */; };
 		F5DB33871C59B568007006B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5DB33851C59B568007006B4 /* LaunchScreen.storyboard */; };
-		F5DB33921C59B568007006B4 /* SwinjectMVVMExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DB33911C59B568007006B4 /* SwinjectMVVMExampleTests.swift */; };
 		F5DB33A41C59B649007006B4 /* ExampleModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F5DB33A31C59B649007006B4 /* ExampleModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F5DB33AB1C59B649007006B4 /* ExampleModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5DB33A11C59B649007006B4 /* ExampleModel.framework */; };
 		F5DB33B21C59B649007006B4 /* ExampleModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DB33B11C59B649007006B4 /* ExampleModelTests.swift */; };
@@ -267,15 +276,24 @@
 		F544EF4D1C59DE77000D2D4F /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		F544EF4F1C59E15C000D2D4F /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		F544EF511C59E33C000D2D4F /* NetworkSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkSpec.swift; sourceTree = "<group>"; };
+		F544EF531C5AF4EE000D2D4F /* Pixabay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pixabay.swift; sourceTree = "<group>"; };
+		F544EF551C5AF691000D2D4F /* ImageSearching.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSearching.swift; sourceTree = "<group>"; };
+		F544EF571C5AF6FE000D2D4F /* ImageSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSearch.swift; sourceTree = "<group>"; };
+		F544EF591C5AFC95000D2D4F /* ImageSearchSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSearchSpec.swift; sourceTree = "<group>"; };
+		F544EF5B1C5B0CF7000D2D4F /* ImageSearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSearchTableViewController.swift; sourceTree = "<group>"; };
+		F544EF5D1C5B0D71000D2D4F /* ImageSearchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSearchTableViewCell.swift; sourceTree = "<group>"; };
+		F544EF5F1C5B0DBD000D2D4F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F544EF611C5B1804000D2D4F /* ImageSearchTableViewModeling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSearchTableViewModeling.swift; sourceTree = "<group>"; };
+		F544EF631C5B1819000D2D4F /* ImageSearchTableViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSearchTableViewModel.swift; sourceTree = "<group>"; };
+		F544EF651C5B18F7000D2D4F /* ImageSearchTableViewCellModeling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSearchTableViewCellModeling.swift; sourceTree = "<group>"; };
+		F544EF671C5B1916000D2D4F /* ImageSearchTablevViewCellModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSearchTablevViewCellModel.swift; sourceTree = "<group>"; };
+		F544EF691C5B2086000D2D4F /* AppDelegateSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegateSpec.swift; sourceTree = "<group>"; };
 		F5DB33791C59B568007006B4 /* SwinjectMVVMExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwinjectMVVMExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5DB337C1C59B568007006B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F5DB337E1C59B568007006B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F5DB33811C59B568007006B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F5DB33831C59B568007006B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5DB33861C59B568007006B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5DB33881C59B568007006B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5DB338D1C59B568007006B4 /* SwinjectMVVMExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwinjectMVVMExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5DB33911C59B568007006B4 /* SwinjectMVVMExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwinjectMVVMExampleTests.swift; sourceTree = "<group>"; };
 		F5DB33931C59B568007006B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5DB33A11C59B649007006B4 /* ExampleModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExampleModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5DB33A31C59B649007006B4 /* ExampleModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleModel.h; sourceTree = "<group>"; };
@@ -448,8 +466,6 @@
 			isa = PBXGroup;
 			children = (
 				F5DB337C1C59B568007006B4 /* AppDelegate.swift */,
-				F5DB337E1C59B568007006B4 /* ViewController.swift */,
-				F5DB33801C59B568007006B4 /* Main.storyboard */,
 				F5DB33831C59B568007006B4 /* Assets.xcassets */,
 				F5DB33851C59B568007006B4 /* LaunchScreen.storyboard */,
 				F5DB33881C59B568007006B4 /* Info.plist */,
@@ -460,8 +476,8 @@
 		F5DB33901C59B568007006B4 /* SwinjectMVVMExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				F5DB33911C59B568007006B4 /* SwinjectMVVMExampleTests.swift */,
 				F5DB33931C59B568007006B4 /* Info.plist */,
+				F544EF691C5B2086000D2D4F /* AppDelegateSpec.swift */,
 			);
 			path = SwinjectMVVMExampleTests;
 			sourceTree = SOURCE_ROOT;
@@ -476,6 +492,9 @@
 				F544EF4B1C59DE6B000D2D4F /* Network.swift */,
 				F544EF4D1C59DE77000D2D4F /* Networking.swift */,
 				F544EF4F1C59E15C000D2D4F /* NetworkError.swift */,
+				F544EF531C5AF4EE000D2D4F /* Pixabay.swift */,
+				F544EF551C5AF691000D2D4F /* ImageSearching.swift */,
+				F544EF571C5AF6FE000D2D4F /* ImageSearch.swift */,
 			);
 			path = ExampleModel;
 			sourceTree = "<group>";
@@ -489,6 +508,7 @@
 				F544EF431C59D83F000D2D4F /* ImageEntitySpec.swift */,
 				F544EF471C59DC7F000D2D4F /* ResponseEntitySpec.swift */,
 				F544EF511C59E33C000D2D4F /* NetworkSpec.swift */,
+				F544EF591C5AFC95000D2D4F /* ImageSearchSpec.swift */,
 			);
 			name = ExampleModelTests;
 			path = ../ExampleModelTests;
@@ -511,6 +531,10 @@
 			children = (
 				F5DB33C71C59B692007006B4 /* ExampleViewModel.h */,
 				F5DB33C91C59B692007006B4 /* Info.plist */,
+				F544EF611C5B1804000D2D4F /* ImageSearchTableViewModeling.swift */,
+				F544EF631C5B1819000D2D4F /* ImageSearchTableViewModel.swift */,
+				F544EF651C5B18F7000D2D4F /* ImageSearchTableViewCellModeling.swift */,
+				F544EF671C5B1916000D2D4F /* ImageSearchTablevViewCellModel.swift */,
 			);
 			path = ExampleViewModel;
 			sourceTree = "<group>";
@@ -530,6 +554,9 @@
 			children = (
 				F5DB33E91C59B6A2007006B4 /* ExampleView.h */,
 				F5DB33EB1C59B6A2007006B4 /* Info.plist */,
+				F544EF5B1C5B0CF7000D2D4F /* ImageSearchTableViewController.swift */,
+				F544EF5D1C5B0D71000D2D4F /* ImageSearchTableViewCell.swift */,
+				F544EF5F1C5B0DBD000D2D4F /* Main.storyboard */,
 			);
 			path = ExampleView;
 			sourceTree = "<group>";
@@ -812,7 +839,6 @@
 			files = (
 				F5DB33871C59B568007006B4 /* LaunchScreen.storyboard in Resources */,
 				F5DB33841C59B568007006B4 /* Assets.xcassets in Resources */,
-				F5DB33821C59B568007006B4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -855,6 +881,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F544EF601C5B0DBD000D2D4F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -894,7 +921,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5DB337F1C59B568007006B4 /* ViewController.swift in Sources */,
 				F5DB337D1C59B568007006B4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -903,7 +929,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5DB33921C59B568007006B4 /* SwinjectMVVMExampleTests.swift in Sources */,
+				F544EF6A1C5B2086000D2D4F /* AppDelegateSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -911,9 +937,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F544EF561C5AF691000D2D4F /* ImageSearching.swift in Sources */,
 				F544EF3F1C59D345000D2D4F /* ImageEntity.swift in Sources */,
 				F544EF411C59D6BC000D2D4F /* ResponseEntity.swift in Sources */,
+				F544EF541C5AF4EE000D2D4F /* Pixabay.swift in Sources */,
 				F544EF4C1C59DE6B000D2D4F /* Network.swift in Sources */,
+				F544EF581C5AF6FE000D2D4F /* ImageSearch.swift in Sources */,
 				F544EF4E1C59DE77000D2D4F /* Networking.swift in Sources */,
 				F544EF501C59E15C000D2D4F /* NetworkError.swift in Sources */,
 			);
@@ -927,6 +956,7 @@
 				F544EF461C59D85F000D2D4F /* Dummy.swift in Sources */,
 				F544EF481C59DC7F000D2D4F /* ResponseEntitySpec.swift in Sources */,
 				F544EF451C59D848000D2D4F /* ImageEntitySpec.swift in Sources */,
+				F544EF5A1C5AFC95000D2D4F /* ImageSearchSpec.swift in Sources */,
 				F544EF521C59E33C000D2D4F /* NetworkSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -935,6 +965,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F544EF621C5B1804000D2D4F /* ImageSearchTableViewModeling.swift in Sources */,
+				F544EF641C5B1819000D2D4F /* ImageSearchTableViewModel.swift in Sources */,
+				F544EF681C5B1916000D2D4F /* ImageSearchTablevViewCellModel.swift in Sources */,
+				F544EF661C5B18F7000D2D4F /* ImageSearchTableViewCellModeling.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -950,6 +984,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F544EF5C1C5B0CF7000D2D4F /* ImageSearchTableViewController.swift in Sources */,
+				F544EF5E1C5B0D71000D2D4F /* ImageSearchTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1012,14 +1048,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F5DB33801C59B568007006B4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F5DB33811C59B568007006B4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F5DB33851C59B568007006B4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -1148,6 +1176,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -1156,6 +1185,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.akbalini.SwinjectMVVMExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwinjectMVVMExample.app/SwinjectMVVMExample";
 			};
 			name = Debug;
@@ -1164,6 +1194,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -1260,6 +1291,7 @@
 		F5DB33DD1C59B692007006B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1275,6 +1307,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.akbalini.ExampleViewModel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1284,6 +1317,7 @@
 		F5DB33DE1C59B692007006B4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1336,6 +1370,7 @@
 		F5DB33FF1C59B6A2007006B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1351,6 +1386,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.akbalini.ExampleView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1360,6 +1396,7 @@
 		F5DB34001C59B6A2007006B4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
