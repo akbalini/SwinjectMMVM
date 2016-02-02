@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B452C021C5FC51700AC317E /* DummyResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B452C011C5FC51700AC317E /* DummyResponse.swift */; };
+		6B452C041C5FC55F00AC317E /* ImageSearchTableViewModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B452C031C5FC55F00AC317E /* ImageSearchTableViewModelSpec.swift */; };
+		6B452C061C5FF4E500AC317E /* ImageSearchTableviewCellModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B452C051C5FF4E500AC317E /* ImageSearchTableviewCellModelSpec.swift */; };
+		6B452C081C60076700AC317E /* ImageSearchTableViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B452C071C60076700AC317E /* ImageSearchTableViewControllerSpec.swift */; };
+		6B452C0B1C601AE600AC317E /* RACUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B452C091C60101500AC317E /* RACUtil.swift */; };
 		F544EF381C59CE93000D2D4F /* Alamofire.framework.dSYM in Copy dSYMs */ = {isa = PBXBuildFile; fileRef = F544EF331C59CE93000D2D4F /* Alamofire.framework.dSYM */; };
 		F544EF391C59CE93000D2D4F /* Himotoki.framework.dSYM in Copy dSYMs */ = {isa = PBXBuildFile; fileRef = F544EF341C59CE93000D2D4F /* Himotoki.framework.dSYM */; };
 		F544EF3A1C59CE93000D2D4F /* ReactiveCocoa.framework.dSYM in Copy dSYMs */ = {isa = PBXBuildFile; fileRef = F544EF351C59CE93000D2D4F /* ReactiveCocoa.framework.dSYM */; };
@@ -42,7 +47,6 @@
 		F5DB33B61C59B649007006B4 /* ExampleModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5DB33A11C59B649007006B4 /* ExampleModel.framework */; };
 		F5DB33B71C59B649007006B4 /* ExampleModel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F5DB33A11C59B649007006B4 /* ExampleModel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F5DB33CF1C59B692007006B4 /* ExampleViewModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5DB33C51C59B692007006B4 /* ExampleViewModel.framework */; };
-		F5DB33D61C59B692007006B4 /* ExampleViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DB33D51C59B692007006B4 /* ExampleViewModelTests.swift */; };
 		F5DB33DA1C59B692007006B4 /* ExampleViewModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5DB33C51C59B692007006B4 /* ExampleViewModel.framework */; };
 		F5DB33DB1C59B692007006B4 /* ExampleViewModel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F5DB33C51C59B692007006B4 /* ExampleViewModel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F5DB33F11C59B6A2007006B4 /* ExampleView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5DB33E71C59B6A2007006B4 /* ExampleView.framework */; };
@@ -262,6 +266,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6B452C011C5FC51700AC317E /* DummyResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DummyResponse.swift; sourceTree = "<group>"; };
+		6B452C031C5FC55F00AC317E /* ImageSearchTableViewModelSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSearchTableViewModelSpec.swift; sourceTree = "<group>"; };
+		6B452C051C5FF4E500AC317E /* ImageSearchTableviewCellModelSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSearchTableviewCellModelSpec.swift; sourceTree = "<group>"; };
+		6B452C071C60076700AC317E /* ImageSearchTableViewControllerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSearchTableViewControllerSpec.swift; sourceTree = "<group>"; };
+		6B452C091C60101500AC317E /* RACUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RACUtil.swift; sourceTree = "<group>"; };
 		F544EF331C59CE93000D2D4F /* Alamofire.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Alamofire.framework.dSYM; path = Carthage/Build/iOS/Alamofire.framework.dSYM; sourceTree = "<group>"; };
 		F544EF341C59CE93000D2D4F /* Himotoki.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Himotoki.framework.dSYM; path = Carthage/Build/iOS/Himotoki.framework.dSYM; sourceTree = "<group>"; };
 		F544EF351C59CE93000D2D4F /* ReactiveCocoa.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = ReactiveCocoa.framework.dSYM; path = Carthage/Build/iOS/ReactiveCocoa.framework.dSYM; sourceTree = "<group>"; };
@@ -305,7 +314,6 @@
 		F5DB33C71C59B692007006B4 /* ExampleViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleViewModel.h; sourceTree = "<group>"; };
 		F5DB33C91C59B692007006B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5DB33CE1C59B692007006B4 /* ExampleViewModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleViewModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5DB33D51C59B692007006B4 /* ExampleViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleViewModelTests.swift; sourceTree = "<group>"; };
 		F5DB33D71C59B692007006B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5DB33E71C59B6A2007006B4 /* ExampleView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExampleView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5DB33E91C59B6A2007006B4 /* ExampleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleView.h; sourceTree = "<group>"; };
@@ -535,6 +543,7 @@
 				F544EF631C5B1819000D2D4F /* ImageSearchTableViewModel.swift */,
 				F544EF651C5B18F7000D2D4F /* ImageSearchTableViewCellModeling.swift */,
 				F544EF671C5B1916000D2D4F /* ImageSearchTablevViewCellModel.swift */,
+				6B452C091C60101500AC317E /* RACUtil.swift */,
 			);
 			path = ExampleViewModel;
 			sourceTree = "<group>";
@@ -542,8 +551,10 @@
 		F5DB33D41C59B692007006B4 /* ExampleViewModelTests */ = {
 			isa = PBXGroup;
 			children = (
-				F5DB33D51C59B692007006B4 /* ExampleViewModelTests.swift */,
 				F5DB33D71C59B692007006B4 /* Info.plist */,
+				6B452C011C5FC51700AC317E /* DummyResponse.swift */,
+				6B452C031C5FC55F00AC317E /* ImageSearchTableViewModelSpec.swift */,
+				6B452C051C5FF4E500AC317E /* ImageSearchTableviewCellModelSpec.swift */,
 			);
 			name = ExampleViewModelTests;
 			path = ../ExampleViewModelTests;
@@ -566,6 +577,7 @@
 			children = (
 				F5DB33F71C59B6A2007006B4 /* ExampleViewTests.swift */,
 				F5DB33F91C59B6A2007006B4 /* Info.plist */,
+				6B452C071C60076700AC317E /* ImageSearchTableViewControllerSpec.swift */,
 			);
 			name = ExampleViewTests;
 			path = ../ExampleViewTests;
@@ -967,6 +979,7 @@
 			files = (
 				F544EF621C5B1804000D2D4F /* ImageSearchTableViewModeling.swift in Sources */,
 				F544EF641C5B1819000D2D4F /* ImageSearchTableViewModel.swift in Sources */,
+				6B452C0B1C601AE600AC317E /* RACUtil.swift in Sources */,
 				F544EF681C5B1916000D2D4F /* ImageSearchTablevViewCellModel.swift in Sources */,
 				F544EF661C5B18F7000D2D4F /* ImageSearchTableViewCellModeling.swift in Sources */,
 			);
@@ -976,7 +989,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5DB33D61C59B692007006B4 /* ExampleViewModelTests.swift in Sources */,
+				6B452C061C5FF4E500AC317E /* ImageSearchTableviewCellModelSpec.swift in Sources */,
+				6B452C041C5FC55F00AC317E /* ImageSearchTableViewModelSpec.swift in Sources */,
+				6B452C021C5FC51700AC317E /* DummyResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -993,6 +1008,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B452C081C60076700AC317E /* ImageSearchTableViewControllerSpec.swift in Sources */,
 				F5DB33F81C59B6A2007006B4 /* ExampleViewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1342,6 +1358,7 @@
 		F5DB33E01C59B692007006B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -1350,12 +1367,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.akbalini.ExampleViewModelTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		F5DB33E11C59B692007006B4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
