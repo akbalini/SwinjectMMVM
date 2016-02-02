@@ -40,7 +40,7 @@
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="imageSizeLabel" destination="HPg-ci-1F4" id="twF-Vg-tse"/>
-                                    <outlet property="previewImageView" destination="Kr2-PJ-sFC" id="Vcl-ge-AMm"/>
+                                    <outlet property="previewImageView" destination="IMQ-wS-Pgp" id="5mn-Ej-5cM"/>
                                     <outlet property="tagLabel" destination="nWe-XC-w8z" id="863-P2-EO1"/>
                                 </connections>
                             </tableViewCell>

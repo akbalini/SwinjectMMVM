@@ -10,7 +10,7 @@ import ReactiveCocoa
 
 public final class ImageSearchTableViewCellModel: NSObject, ImageSearchTableViewCellModeling {
     
-    public let id: UInt32
+    public let id: UInt64
     public let pageImageSizeText: String
     public let tagText: String
     
@@ -42,3 +42,4 @@ public final class ImageSearchTableViewCellModel: NSObject, ImageSearchTableView
         }
     }
 }
+

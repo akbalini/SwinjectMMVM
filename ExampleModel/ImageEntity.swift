@@ -9,7 +9,7 @@
 import Himotoki
 
 public struct ImageEntity {
-    public let id: UInt32
+    public let id: UInt64
     
     public let pageURL: String
     public let pageImageWidth: Int

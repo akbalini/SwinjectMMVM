@@ -21,6 +21,6 @@ internal struct Pixbabay {
 }
 extension Pixbabay {
     private struct Config{
-        private static let apiKey = ""
+        private static let apiKey = "1882330-ef407ac91f7e312721d619e0d"
     }
 }
